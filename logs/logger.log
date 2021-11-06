@@ -1,0 +1,108 @@
+2014-09-30 23:34:18,947 - ERROR BaseDAO:130 - listLinkPing
+com.microsoft.sqlserver.jdbc.SQLServerException: Invalid object name 'ARTICLEGO'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:285)
+	at com.ppack.base.BaseDAO.listLinkPing(BaseDAO.java:118)
+	at com.ppack.doping.StarDoPing.startDoPing(StarDoPing.java:16)
+	at com.ppack.doping.StarDoPing.main(StarDoPing.java:56)
+2014-09-30 23:38:15,729 - ERROR BaseDAO:133 - listLinkPing
+com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'ARTICE_NAME'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:285)
+	at com.ppack.base.BaseDAO.listLinkPing(BaseDAO.java:121)
+	at com.ppack.doping.StarDoPing.startDoPing(StarDoPing.java:16)
+	at com.ppack.doping.StarDoPing.main(StarDoPing.java:56)
+2014-09-30 23:39:42,011 - ERROR BaseDAO:133 - listLinkPing
+com.microsoft.sqlserver.jdbc.SQLServerException: Invalid column name 'ARTICLE_NAME'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeQuery(SQLServerPreparedStatement.java:285)
+	at com.ppack.base.BaseDAO.listLinkPing(BaseDAO.java:121)
+	at com.ppack.doping.StarDoPing.startDoPing(StarDoPing.java:16)
+	at com.ppack.doping.StarDoPing.main(StarDoPing.java:56)
+2014-09-30 23:39:42,015 - INFO  StarDoPing:30 - SERVICE START: http://ping.baidu.com/ping/RPC2
+2014-09-30 23:39:42,018 - INFO  StarDoPing:30 - SERVICE START: http://rpc.weblogs.com/RPC2
+2014-09-30 23:39:42,019 - INFO  StarDoPing:30 - SERVICE START: http://blogpeople.net/ping
+2014-09-30 23:39:57,400 - INFO  StarDoPing:30 - SERVICE START: http://ping.baidu.com/ping/RPC2
+2014-09-30 23:39:57,411 - INFO  StarDoPing:30 - SERVICE START: http://rpc.weblogs.com/RPC2
+2014-09-30 23:39:57,412 - INFO  StarDoPing:30 - SERVICE START: http://blogpeople.net/ping
+2014-09-30 23:39:57,878 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:57,879 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:57,879 - INFO  DoPing:56 - #Name: Giới thiệu về Siêu Thị Trẻ Thơ
+2014-09-30 23:39:57,879 - INFO  DoPing:57 - #URI: gioi-thieu-ve-sieu-thi-tre-tho
+2014-09-30 23:39:57,880 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:57,880 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:58,003 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:58,003 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:58,004 - INFO  DoPing:56 - #Name: Chính sách đổi hàng
+2014-09-30 23:39:58,004 - INFO  DoPing:57 - #URI: chinh-sach-doi-hang
+2014-09-30 23:39:58,004 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:58,004 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:58,627 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:58,631 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:58,631 - INFO  DoPing:56 - #Name: Chính sách bảo mật thông tin
+2014-09-30 23:39:58,632 - INFO  DoPing:57 - #URI: chinh-sach-bao-mat-thong-tin
+2014-09-30 23:39:58,632 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:58,632 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:58,752 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:58,753 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:58,753 - INFO  DoPing:56 - #Name: Chính sách giao hàng
+2014-09-30 23:39:58,753 - INFO  DoPing:57 - #URI: chinh-sach-giao-hang
+2014-09-30 23:39:58,753 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:58,753 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:58,874 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:58,874 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:58,875 - INFO  DoPing:56 - #Name: Mẹo chuẩn chọn bỉm cho bé yêu
+2014-09-30 23:39:58,875 - INFO  DoPing:57 - #URI: meo-chuan-chon-bim-cho-be-yeu
+2014-09-30 23:39:58,875 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:58,875 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:58,997 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:58,997 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:58,998 - INFO  DoPing:56 - #Name: Mặc bỉm "giá rẻ" bé yêu vẫn khỏe
+2014-09-30 23:39:58,998 - INFO  DoPing:57 - #URI: mac-bim-gia-re-be-yeu-van-khoe
+2014-09-30 23:39:58,998 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:58,998 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:59,121 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:59,121 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:59,121 - INFO  DoPing:56 - #Name: Sữa nào tốt hơn sữa mẹ?
+2014-09-30 23:39:59,121 - INFO  DoPing:57 - #URI: sua-nao-tot-hon-sua-me
+2014-09-30 23:39:59,122 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:59,122 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:59,239 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:59,240 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:59,240 - INFO  DoPing:56 - #Name: Thời điểm vàng để mang thai
+2014-09-30 23:39:59,240 - INFO  DoPing:57 - #URI: thoi-diem-vang-de-mang-thai
+2014-09-30 23:39:59,241 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:59,241 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:59,361 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:59,361 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:59,361 - INFO  DoPing:56 - #Name: 5 bí kíp giúp mẹ chọn bỉm quần tốt cho bé
+2014-09-30 23:39:59,361 - INFO  DoPing:57 - #URI: 5-bi-kip-giup-me-chon-bim-quan-tot-cho-be
+2014-09-30 23:39:59,362 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:59,362 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing
+2014-09-30 23:39:59,480 - INFO  DoPing:54 - --------------------------------------------------------
+2014-09-30 23:39:59,480 - INFO  DoPing:55 - #Message: {message=Thanks for the ping., flerror=false}
+2014-09-30 23:39:59,480 - INFO  DoPing:56 - #Name: Tại sao nên sử dụng quần bỉm cho bé yêu?
+2014-09-30 23:39:59,480 - INFO  DoPing:57 - #URI: tai-sao-nen-su-dung-quan-bim-cho-be-yeu
+2014-09-30 23:39:59,481 - INFO  DoPing:58 - #Client: http://blogpeople.net/ping
+2014-09-30 23:39:59,481 - INFO  DoPing:59 - #Method: weblogUpdates.extendedPing

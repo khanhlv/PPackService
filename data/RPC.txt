@@ -1,0 +1,15 @@
+http://ping.baidu.com/ping/RPC2
+http://rpc.weblogs.com/RPC2
+http://blogpeople.net/ping
+http://audiorpc.weblogs.com/RPC2
+http://ping.blogs.yandex.ru/RPC2
+http://blogsearch.google.com/ping/RPC2
+http://blogsearch.google.com.vn/ping/RPC2
+http://blogpeople.net/servlet/weblogUpdates
+http://i-learn.jp/ping/
+http://rpc.bloggerei.de/ping/
+http://www.blogpeople.net/servlet/weblogUpdates
+http://xping.pubsub.com/ping/
+http://ping.pubsub.com/ping
+http://xping.pubsub.com/ping
+http://rpc.weblogs.com/RPC2
